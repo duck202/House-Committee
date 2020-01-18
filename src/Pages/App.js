@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import './App.css';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 import autoBind from 'react-autobind';
-import shortid from 'shortid'
+// import shortid from 'shortid'
 import Home from './Home'
+import Navigation from './Nav'
 
 export default class App extends Component {
   constructor(props) {
@@ -15,7 +16,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Home/>
+      <Navigation/>
+       <Home/>
       </div>
     )
   }

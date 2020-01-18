@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import autoBind from 'react-autobind';
 import shortid from 'shortid'
 
@@ -15,7 +15,9 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        Hello world!
+        <Container>
+             שלום עולם! 
+        </Container>
       </div>
     )
   }
