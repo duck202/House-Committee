@@ -3,8 +3,9 @@ import './App.css';
 // import { Button } from 'react-bootstrap';
 import autoBind from 'react-autobind';
 // import shortid from 'shortid'
-import Home from './Home'
+import LandPage from './LandPage'
 import Navigation from './Nav'
+import LanPageNav from './LanPageNav'
 
 export default class App extends Component {
   constructor(props) {
@@ -16,11 +17,16 @@ export default class App extends Component {
   render() {
     return (
       <div>
-      <Navigation/>
-       <Home/>
+      <LanPageNav/>
+      <LandPage/>
       </div>
     )
   }
 }
 
+
+
+
+// <Navigation/>
+// <Home/>
 

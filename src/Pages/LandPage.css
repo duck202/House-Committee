@@ -1,0 +1,7 @@
+body {
+    direction: rtl !important;
+  }
+
+  Figure {
+   justify-content: center;
+  }
